@@ -1,0 +1,95 @@
+<section class="about" id="tradition">
+    <div class="container">
+      <p class="about__pre-title">tradition and love</p>
+      <h2 class="about__title">how it's made?</h2>
+
+    <div class="cow-list">
+      <div class="about-image-cow">
+         <picture>
+             <source media="(max-width: 767px)"
+              srcset="images/mob-cow-1x.png 1x,
+              images/mob-cow-2x.png 2x">
+
+             <source media="(max-width: 1199px)"
+              srcset="images/tab-cow.png 1x,
+              images/tab-cow@2x.png 2x">
+
+             <source 
+              srcset="images/desk-cow.png 1x,
+              images/desk-cow@2x.png 2x">
+
+                <img src="images/mob-cow-1x.png" 
+                  alt="cow and milk">
+         </picture>
+          
+      </div>
+      <div class="about-content-cow">
+      <div class="about-content__after">
+        <p class="about-content__after-title">
+          "Icecream" products do not contain any preservatives,
+           harmful additives, vegetable fats, artificial colors and flavors.
+          Our ice cream is made exclusively from fresh farm milk and butter.
+        </p>
+
+        <div class="about-content-bckg">
+          <p class="about-content__after-text">
+            In the production of fruit varieties,
+             we use only natural and selected fruits,
+              and also strictly follow four main rules:
+            freshness, quality, benefit and safety.
+            <br /><br />
+          The Icecream company is proud to produce 100% 
+          natural ice cream for you
+          </p>
+        </div>
+      </div>
+      <button type="button" class="about-content__btn" data-modal-open>
+        Read more
+        <svg class="icon" width="10" height="8">
+          <use href="./images/sprite.svg#icon-ar"></use>
+        </svg>
+      </button>
+      </div>
+    </div>
+
+    </div>
+</section>
+
+  <!--Модальное окно-->
+  <div class="backdrop-about is-hidden" data-modal>
+    <div class="modal-about">
+      <button type="button" class="modal-about-btn" data-modal-close>
+        <svg class="about-icon" width="14" height="14">
+          <use href="./icons.svg#icon-close-mob"></use>
+        </svg>
+      </button>
+      <h2 class="modal-about-title">
+        How we make ice cream
+      </h2>
+      <p class="modal-about-text"> 
+             "Our company pays special attention to tradition and 
+             relies on recipes developed by us. Customers tell us that the ice
+             cream we offer today is the best they have tried. 
+             Because we have supplemented tradition with modern technologies and
+             have long been in line with international quality standards
+              such as ISO 9001 FSSC 22000, IFS Food."
+          <picture class="picture">
+              <source media="(max-width: 767px)"
+               srcset="images/mob-icecream-1x.png 1x,
+                 images/mob-icecream-2x.png 2x">
+      
+              <source media="(max-width: 1199px)" 
+               srcset="images/tab-icecream.png 1x,
+                 images/tab-icecream@2x.png 2x">
+      
+              <source srcset="images/desk-icecream.png 1x,
+                 images/desk-icecream@2x.png 2x">
+
+              <img src="images/mob-icecream-1x.png" 
+                   alt="ice cream" 
+                   width="250" height="250" >
+          </picture>
+      </p>
+        
+    </div>
+  </div>
